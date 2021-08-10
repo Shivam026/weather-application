@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Weather</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="weatherstyle.css">
+    </head>
+    <body>
+        
+        <div class="container">
+            <div class="search">
+              <input type="text" id="citysearch" placeholder="enter the city"/>
+              <button id="btn-search">Search</button> 
+            </div>
+            <div class="output">
+                <h3><span id="cityname"></span></h3>
+            <div class="pic">
+                <!--<i class="fa fa-sun-o" aria-hidden="true"></i>-->
+                <img id="icon" alt="weatherpic"/>
+                </div>
+                <h2><span id="temp"></span>Celsius</h2>
+            </div>
+        </div>
+        <script src="weathercode.js"></script>
+        
+    </body>
+</html>
+
